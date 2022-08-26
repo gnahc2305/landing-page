@@ -47,14 +47,12 @@ a {
     display: flex;
     flex-wrap: nowrap;
     padding: 0px 40px;
-    /* max-width: 60%; */
 }
 
 .card-left {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    /* max-width: 500px; */
     background-color: #1F2937;
     flex: 1 1 auto;
     padding: 0px 30px;
@@ -71,17 +69,25 @@ a {
     color: #f9faf8;
 }
 
-.image {
-    /* flex: 1 1 30%; */
-    /* margin-left: auto; */
+.subtitle {
+    text-align: center;
+    font-size: 36px;
+    padding: 20px 0px;
 }
 
-/* .card {
+.content-two {
+    padding-top: 20px;
+    text-align: center;
     display: flex;
-    flex-direction: column;
-    background-color: black;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    max-width: 40%;
-    height: 234px;
-} */
+    justify-content: center;
+    gap: 50px;
+}
+
+.info {
+    max-width: 200px;
+    padding: 20px;
+}
+
+.info img {
+    margin-bottom: 15px;
+}
