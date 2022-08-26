@@ -8,6 +8,8 @@ ul {
     list-style: none;
     display: flex;
     gap: 16px;
+    font-size: 18px;
+    font-weight: 100;
 }
 
 a {
@@ -24,6 +26,10 @@ a {
     padding-bottom: 3em;
 }
 
+.header h2 {
+    font-size: 24px;
+}
+
 .right-links {
     align-self: center;
 }
@@ -34,9 +40,43 @@ a {
     background-color: #1F2937;
     color: white;
     padding-bottom: 4em;
+    flex-wrap: wrap;
 }
 
 .card {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 0px 40px;
+    /* max-width: 60%; */
+}
+
+.card-left {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* max-width: 500px; */
+    background-color: #1F2937;
+    flex: 1 1 auto;
+    padding: 0px 30px;
+}
+
+.card-left h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.card-left p {
+    font-size: 18px;
+    color: #f9faf8;
+}
+
+.image {
+    /* flex: 1 1 30%; */
+    /* margin-left: auto; */
+}
+
+/* .card {
     display: flex;
     flex-direction: column;
     background-color: black;
@@ -44,4 +84,4 @@ a {
     justify-content: space-around;
     max-width: 40%;
     height: 234px;
-}
+} */
