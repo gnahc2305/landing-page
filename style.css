@@ -81,6 +81,7 @@ a {
     display: flex;
     justify-content: center;
     gap: 50px;
+    padding-bottom: 0px;
 }
 
 .info {
@@ -91,3 +92,45 @@ a {
 .info img {
     margin-bottom: 15px;
 }
+
+/* footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #1F2937;
+    color: white;
+    padding: 20px;
+    position: fixed;
+} */
+
+.citation {
+    display: flex;
+    background-color: #5d79a1;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0rem;
+    border-radius: 10px;
+    padding: 0px 10px;
+    max-width: 600px;
+    /* flex: 1 1 60%; */
+    margin-right: auto;
+    margin-left: auto;
+} 
+
+.citation-text {
+    display: flex;
+    background-color: cadetblue;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.said {
+    display: flex;
+    align-self: flex-end;
+    flex-wrap: wrap;
+    /* font-size: 10px; */
+}
+
