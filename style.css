@@ -20,7 +20,7 @@ a {
 .header {
     display: flex;
     padding: 0px;
-    background: #4f1862;
+    background: #612242;
     color: white;
     justify-content: space-around;
     padding-bottom: 3em;
@@ -37,7 +37,7 @@ a {
 .content-one {
     display: flex;
     justify-content: center;
-    background-color: #4f1862;
+    background-color: #612242;
     color: white;
     padding-bottom: 4em;
     flex-wrap: wrap;
@@ -47,13 +47,14 @@ a {
     display: flex;
     flex-wrap: nowrap;
     padding: 0px 40px;
+    max-width: 1200px;
 }
 
 .card-left {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    background-color: #4f1862;
+    background-color: #612242;
     flex: 1 1 auto;
     padding: 0px 30px;
 }
@@ -100,7 +101,7 @@ footer {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: #4f1862;
+    background-color: #612242;
     color: white;
     padding: 20px;
 }
@@ -138,7 +139,7 @@ footer {
 .final-section {
     display: flex;
     margin: 100px 0px;
-    color: black;
+    color: white;
 }
 
 .content-section {
@@ -146,7 +147,7 @@ footer {
     margin-left: auto;
     margin-right: auto;
     border-radius: 15px;
-    background-color: #DEACF5;
+    background-color: #A60857;
     padding: 0px 10px;
     width: 700px;
 }
@@ -159,7 +160,7 @@ footer {
 }
 
 button {
-    background: royalblue;
+    background: #A60857;
     color: white;
     border: 1px solid #ddd;
     border-radius: 5px;
@@ -185,4 +186,3 @@ button {
     margin-top: 0px;
     margin-bottom: 30px;
 }
-
